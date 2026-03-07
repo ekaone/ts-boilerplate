@@ -47,12 +47,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ekaone/mask-email"
+    "url": "https://github.com/ekaone/repository_name.git"
   },
   "bugs": {
-    "url": "https://github.com/ekaone/mask-email/issues"
+    "url": "https://github.com/ekaone/repository_name/issues"
   },
-  "homepage": "https://github.com/ekaone/mask-email#readme",
+  "homepage": "https://github.com/ekaone/repository_name#readme",
   "devDependencies": {
     "@types/node": "^25.1.0",
     "@vitest/coverage-v8": "^4.0.18",
