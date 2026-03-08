@@ -5,7 +5,7 @@
     /* Emit */
     "declaration": true,
     "declarationMap": true,
-    "sourceMap": false,
+    "sourceMap": true,
     "outDir": "./dist",
 
     /* Modules & Resolution */
