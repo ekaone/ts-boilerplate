@@ -2,11 +2,24 @@
 
 A lightweight, zero-dependency TypeScript library 
 
+## Installation
+
+```bash
+npm install @ekaone/mask-email
+```
+
+```bash
+yarn add @ekaone/mask-email
+```
+
+```bash
+pnpm add @ekaone/mask-email
+```
 
 
 ## License
 
-MIT © Eka Prasetia
+MIT © [Eka Prasetia](https://prasetia.me/)
 
 ## Links
 

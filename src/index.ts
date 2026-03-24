@@ -1,7 +1,7 @@
 /**
- * index.ts
- * @description Entry point for the application.
- * @author Your Name
- * @date 2024-06-01
- * @version 1.0.0
+ * @file index.ts
+ * @description Core entry point for @ekaone/package_name.
+ * @author Eka Prasetia
+ * @website https://prasetia.me
+ * @license MIT
  */
