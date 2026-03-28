@@ -44,7 +44,7 @@
     "dev": "tsup --watch",
     "clean": "rimraf dist",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "npm run clean && npm run build && npm test",
+    "prepublishOnly": "pnpm run clean && pnpm run build && pnpm run test",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:ui": "vitest --ui",
