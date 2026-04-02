@@ -24,7 +24,7 @@
     "forceConsistentCasingInFileNames": true,
     
     /* 2026 Optimization */
-    "isolatedDeclarations": true        // Speeds up builds in monorepos/large projects
+    "isolatedDeclarations": false        // true: Speeds up builds in monorepos/large projects
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist", "tests"]

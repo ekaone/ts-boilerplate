@@ -1,7 +1,7 @@
 {
   "name": "@ekaone/package_name",
-  "version": "1.0.0",
-  "description": "A lightweight, zero-dependency TypeScript library for ... (briefly describe what your library does)",
+  "version": "0.0.1",
+  "description": "...",
   "keywords": [
     "email",
     "mask",
@@ -37,14 +37,16 @@
     "access": "public"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
     "clean": "rimraf dist",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "pnpm run clean && pnpm run build && pnpm run test",
+    "prepublishOnly": "pnpm run clean && pnpm run test && pnpm run build",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:ui": "vitest --ui",
