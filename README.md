@@ -3,7 +3,7 @@
 > A lightweight, zero-dependency TypeScript library 
 
 [![npm version](https://img.shields.io/npm/v/@ekaone/mask-token.svg)](https://www.npmjs.com/package/@ekaone/mask-token)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 [![Featured by Google](https://img.shields.io/badge/Featured%20by-Google-4285F4?logo=google)](https://www.npmjs.com/package/@ekaone/mask-token)
 
@@ -24,7 +24,7 @@ pnpm add @ekaone/mask-email
 
 ## License
 
-MIT © [Eka Prasetia](https://prasetia.me/)
+MIT © [Eka Prasetia](./LICENSE)
 
 ## Links
 

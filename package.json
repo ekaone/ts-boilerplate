@@ -1,17 +1,14 @@
 {
-  "name": "@ekaone/package_name",
+  "name": "@ekaone/diff-kit",
   "version": "0.0.1",
-  "description": "...",
+  "description": "Zero-dependency line diff utility — diff, formatDiff, diffStats.",
   "keywords": [
-    "email",
-    "mask",
-    "obfuscate",
-    "typescript",
-    "library",
-    "privacy",
-    "security",
-    "email-masking",
-    "data-protection"
+    "diff",
+    "line-diff",
+    "lcs",
+    "patch",
+    "text-diff",
+    "zero-dependency"
   ],
   "author": {
     "name": "Eka Prasetia",
@@ -23,14 +20,15 @@
   "engines": {
     "node": ">=18"
   },
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
   },
   "publishConfig": {
@@ -42,8 +40,9 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "build": "pnpm typecheck && pnpm clean && pnpm tsup",
+    "dev": "tsx src/cli.ts",
+    "watch": "tsup --watch",
     "clean": "rimraf dist",
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "pnpm run clean && pnpm run test && pnpm run build",
@@ -52,14 +51,6 @@
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ekaone/repository_name.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ekaone/repository_name/issues"
-  },
-  "homepage": "https://github.com/ekaone/repository_name#readme",
   "devDependencies": {
     "@types/node": "^25.5.0",
     "@vitest/coverage-v8": "^4.1.0",
@@ -68,5 +59,13 @@
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",
     "vitest": "^4.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekaone/diff-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ekaone/diff-kit/issues"
+  },
+  "homepage": "https://github.com/ekaone/diff-kit#readme"
 }
